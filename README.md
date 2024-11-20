@@ -80,26 +80,5 @@ npm start
 - **Text Alignment**: Align text to the left, center, or right.
 - **Font Size**: Increase or decrease the font size of the selected text.
 
-## **Screenshots**
-
-### Home Page 🏠
-- Description: The landing page showing a list of notes with options to pin or delete notes.
-  
-![Screenshot 2024-11-20 221622](https://github.com/user-attachments/assets/a29de597-a4b4-478d-88ca-d6d6738ffb51)
-
-
-### Note Editor 📝
-- Description: The editor interface where users can create or edit a note. Rich text options are available in the toolbar.
-
-![Screenshot 2024-11-20 222500](https://github.com/user-attachments/assets/aed5239a-4e66-4c7f-84fe-09bacf7579ec)
-
-### Pinning Notes 📌
-- Description: Pinned notes appear at the top of the list for easy access.
-
-![Screenshot 2024-11-20 222736](https://github.com/user-attachments/assets/4272c8ef-117f-499f-bcd5-17b3d4959754)
-
-
 ## **Contributing**
 - Contributions are welcome! If you'd like to contribute to this project, please fork the repository and create a pull request with your changes.
-
-
