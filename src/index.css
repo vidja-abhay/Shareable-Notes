@@ -1,0 +1,33 @@
+/* In your global CSS file, you can add Tailwind's base classes */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Example for adding custom styles (optional) */
+@layer components {
+  .toolbar {
+    border-bottom: 2px solid #E5E7EB; /* Light gray border */
+  }
+}
+/* Hide the scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 1px;  /* Thinner scrollbar */
+  height: 1px; /* Thinner scrollbar */
+}
+
+/* Make the scrollbar thumb indigo-colored when visible */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #4c51bf; /* Indigo color */
+  border-radius: 10px;
+}
+
+/* Make the scrollbar track transparent */
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* For Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin; /* Thin scrollbar */
+  scrollbar-color: #4c51bf transparent; /* Indigo color and transparent track */
+}
